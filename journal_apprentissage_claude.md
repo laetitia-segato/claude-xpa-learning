@@ -354,3 +354,9 @@ Légende : ⬜ à faire · ⏳ en cours · ✅ terminé · ⚠️ bloqué
 - Passerelle API entre une base XPA et une app moderne
 - Assistant Claude pour la maintenance de programmes XPA
 - Outil interne avec front + API + MCP
+
+## Liens utiles XPA → moderne
+
+- Documentation XPA officielle : à compléter
+- Forum Magic XPA developers : à compléter
+- Articles parallèle XPA / Python : à compléter
