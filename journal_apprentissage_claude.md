@@ -9,9 +9,9 @@
 
 - **Date de démarrage** : 2026-04-23
 - **Phase en cours** : Phase 1
-- **Heures cumulées** : 7 h
-- **Dernière session** : 2026-05-15
-- **Prochaine étape prévue** : Phase 1 Bloc B — Git + GitHub
+- **Heures cumulées** : 7.75 h
+- **Dernière session** : 2026-05-22
+- **Prochaine étape prévue** : Phase 1 Bloc B suite — branches, GitHub, push, PR, conflit
 - **Repo GitHub du parcours** : _à compléter après Phase 1_
 
 ---
@@ -265,6 +265,32 @@ Légende : ⬜ à faire · ⏳ en cours · ✅ terminé · ⚠️ bloqué
 
 ---
 
+### Session n°8 — 2026-05-22 — Durée : ~50 min
+
+- **Phase** : 1 — Fondations dev modernes (Bloc B : Git, première moitié)
+- **Ce que j'ai fait** :
+  - Vérifié Git préinstallé (v2.53)
+  - Configuré Git : `user.name`, `user.email`, `init.defaultBranch=main`
+  - Créé le dossier `~/projets/claude-xpa-learning/`
+  - Copié le journal depuis OneDrive vers WSL via drag-and-drop dans Explorer (`explorer.exe .`)
+  - Premier `git init` → création du `.git/` caché
+  - Premier `git status` (fichier untracked)
+  - Premier `git add` (fichier passé en staging)
+  - Premier `git commit` (hash c9e9358 sur branche main)
+  - Premier `git log` (historique visible)
+- **Ce que j'ai appris** :
+  - Le modèle mental des **3 zones Git** : Working Directory → Staging Area → Repository
+  - Git affiche systématiquement la prochaine étape suggérée → lire ses messages
+  - Une commande Linux qui réussit est souvent silencieuse (`git add` n'affiche rien)
+  - `HEAD` = pointeur sur "où je suis dans l'historique" ; il pointe sur la branche courante (`main`)
+  - Un hash de commit = empreinte cryptographique infalsifiable du contenu
+  - `explorer.exe .` lance l'Explorateur Windows sur le dossier Linux courant (pont WSL)
+- **Ce qui m'a bloqué** : rien de bloquant cette session
+- **Artefacts produits** : repo Git local `~/projets/claude-xpa-learning/` avec 1 commit
+- **Prochaine étape** : Bloc B suite — plusieurs commits, branches, créer compte GitHub, push, PR, conflit
+
+---
+
 <!-- Dupliquer ce bloc pour chaque nouvelle session -->
 
 ---
@@ -292,7 +318,8 @@ Légende : ⬜ à faire · ⏳ en cours · ✅ terminé · ⚠️ bloqué
 - 2026-04-23 — Une list comprehension, c'est un SELECT SQL projeté+filtré en une ligne.
 - 2026-05-06 — Mes propres prompts utilisaient déjà 3 techniques officielles sans le savoir : clarté, contexte, rôle. Le travail consiste maintenant à structurer (XML) et à donner des exemples (multishot).
 - 2026-05-15 — Le pipe `|` en Linux, c'est de la composition de programmes. Aucun équivalent direct en XPA. Permet d'assembler des Lego d'outils pour fabriquer un traitement.
--    2026-05-15 — WSL2 mélange les deux mondes dans $PATH : depuis Ubuntu je peux lancer notepad.exe ou code.exe. Pont magique Windows ↔ Linux.
+- 2026-05-15 — WSL2 mélange les deux mondes dans $PATH : depuis Ubuntu je peux lancer notepad.exe ou code.exe. Pont magique Windows ↔ Linux.
+-    2026-05-22 — Git, c'est 3 zones : ton dossier (working) → la table de préparation (staging) → l'historique gravé (repository). `git add` puis `git commit` fait le pont entre les 3. Aucun équivalent XPA — ici c'est toi qui choisis ce qui rentre dans chaque "photo".
 
 ---
 
