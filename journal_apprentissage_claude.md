@@ -348,3 +348,9 @@ Légende : ⬜ à faire · ⏳ en cours · ✅ terminé · ⚠️ bloqué
 - **Heures totales du mois** : X h
 
 ---
+
+## Idées de projet Capstone (à creuser)
+
+- Passerelle API entre une base XPA et une app moderne
+- Assistant Claude pour la maintenance de programmes XPA
+- Outil interne avec front + API + MCP
