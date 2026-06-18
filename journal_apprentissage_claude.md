@@ -1,4 +1,4 @@
-# Journal d'apprentissage — Programme Claude pour dev XPA
+# Journal d apprentissage Claude (version A)
 
 > Document vivant. À mettre à jour à la fin de chaque session (5 minutes suffisent).
 > Versionner dans Git dès la Phase 1. Ce journal EST ta trace.
